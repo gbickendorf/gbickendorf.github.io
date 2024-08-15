@@ -116,7 +116,7 @@ If the entry matches one form of the last names and the first names, it will be 
 ```
 
 If the entry matches one of the combinations of the last names and the first names, it will be highlighted and linked to the url provided.
-
+ 
 ### Buttons (through custom bibtex keywords)
 
 There are several custom bibtex keywords that you can use to affect how the entries are displayed on the webpage:

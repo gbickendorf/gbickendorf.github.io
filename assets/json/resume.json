@@ -5,7 +5,7 @@
     "email": "bickendorf@uni-bonn.de",
     "phone": "",
     "url": "https://gbickendorf.github.io/",
-    "summary": "Theoretischer Physiker mit Forschungsschwerpunkt in der Anwendung von machine learning auf hochenergie Teilchenphysik Experimenten",
+    "summary": "Data scientist focusing on the application of machine learning techniques to high energy particle physics.",
     "location": {
       "address": "Wegelerstraße 10",
       "postalCode": "53115",
@@ -19,7 +19,7 @@
       "institution": "Physikalisches Institut, Rheinische Friedrich-Wilhelms-Universität Bonn",
       "location": "Bonn, Deutschland",
       "url": "https://www.pi.uni-bonn.de/",
-      "area": "Anwendung von machine learning auf Teilchenphysik",
+      "area": "Application of machine learning to particle physics",
       "studyType": "Promotion",
       "startDate": "2023",
       "endDate": ""
@@ -28,25 +28,25 @@
       "institution": "Physikalisches Institut, Rheinische Friedrich-Wilhelms-Universität Bonn",
       "location": "Bonn, Deutschland",
       "url": "https://www.pi.uni-bonn.de/",
-      "area": "Nummerische Physik, Teilchen Physik",
+      "area": "Numerical physics, particle physics",
       "studyType": "Master of Science (Physik)",
       "startDate": "2017",
       "endDate": "2019"
     },
     {
       "institution": "Physikalisches Institut, Rheinische Friedrich-Wilhelms-Universität Bonn",
-      "location": "Bonn, Deutschland",
+      "location": "Bonn, Germany",
       "url": "https://www.pi.uni-bonn.de/",
-      "area": "Physik Grundstudium",
+      "area": "",
       "studyType": "Bachelor of Science (Physik)",
       "startDate": "2013",
       "endDate": "2017"
     },
     {
       "institution": "Georg-Simon Ohm Berufskolleg",
-      "location": "Köln, Deutschland",
+      "location": "Cologne, Deutschland",
       "url": "https://www.gso-koeln.de/person/informationstechnischer-assistentin-ahr/",
-      "area": "Vollzeitschulische Ausbildung",
+      "area": "Fulltime qualification",
       "studyType": "Staatlich geprüfterer Informationstechnischer Assistent + Abitur",
       "startDate": "2010",
       "endDate": "2013"
@@ -58,7 +58,7 @@
       "date": "2023",
       "issuer": "Universität Bonn, Institut für Informatik II",
       "url": "https://trainee.cs.uni-bonn.de/course/2023-ss-lecture-foundations-of-machine-learning-in-python",
-      "description": "asd"
+      "description": ""
     }
   ],
   "publications": [
@@ -85,13 +85,13 @@
   ],
   "skills": [
     {
-      "name": "Programmierung",
+      "name": "Programming",
       "level": "Master",
       "icon": "fa-solid fa-hashtag",
       "keywords": [ "C++", "C#", "C", "CUDA", "Python"
       ]
     },    {
-      "name": "Maschinelles Lernen",
+      "name": "Machine learning",
       "level": "Master",
       "icon": "fa-solid fa-hashtag",
       "keywords": [
@@ -99,7 +99,7 @@
       ]
     },
     {
-      "name": "Sonstiges",
+      "name": "Others",
       "level": "Master",
       "icon": "fa-solid fa-hashtag",
       "keywords": [
@@ -121,11 +121,11 @@
     {
       "organization": "Bonner Ruder-Gesellschaft e.V.",
       "location": "Bonn",
-      "position": "Leiter des \"Jungen Ruderbetriebs\" ",
+      "position": "Organizer of \"Junger Ruderbetriebs\" ",
       "url": "https://example.com",
       "startDate": "2021",
       "endDate": "",
-      "summary": "Leiter des einzigen organisierten Sportangebots für Mitglieder U35. Wöchentliches Training und Organisation von außersportlichen Aktivitäten."
+      "summary": "Leader of the only centrally organized rowing training for club members up to 35 years of age. Weekly training and organization of leisure activities. Leiter des einzigen organisierten Sportangebots für Mitglieder U35."
     }
   ]
 }

@@ -1,6 +1,7 @@
 repo_description_lines_max: 2
 
 github_repos:
+  - gbickendorf/stop_pair_vision_transformers
   - gbickendorf/Root-Recast-CMS-SUS-19-013
   - gbickendorf/PureSU3 
   - gbickendorf/MuonSpectrumMC 

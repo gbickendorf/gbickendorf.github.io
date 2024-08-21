@@ -8,6 +8,9 @@ category: fun
 related_publications: false
 ---
 
+## Introduction
+Radiation is a fascinating topic. Some forms are invisible, but the exposure is still unhealthy. In some region, the basement is prone to accumulating radon gas, which can be breathed in. When the atoms decay inside the lung, this raises the lung cancer risk significantly. Given this and the general fascination of measuring invisible effects I wanted to build a Geiger counter and maybe integrate it into my Raspberry Pi home server.
+
 ## Principle behind a Geiger Counter
 The main component of our Geiger counter is the Geiger tube. This tube is cheap and readily available. The glass tube is filled with a mixture of gasses (often a noble and a halogen gas). Through the middle there is a thin metal wire forming the anode. The inner wall of the tube is thinly coated with a conducting metal which is connected to the cathode. Between the anode and cathode lies a potential difference of several hundreds of volts. When a particle of ionizing radiation enters the tube, it ionized the gas along its path. The voltage accelerates the free electrons towards the anode which ionizes other atoms along the way. This results in an avalanche that ionizes almost the entire gas. Once the electrons reach the anode, there is a small current. This current can be amplified and subsequently measured. When the pulse is fed into a speaker, it produces the well known "click"-sound.
 

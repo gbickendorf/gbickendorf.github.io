@@ -32,25 +32,25 @@ A baseline selection is therefore (among others) to require large $$p_T^{\rm mis
 The signal and background events are distributed as follows: For the moment, ignore the yellow lines. This will be explained below. 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Mj1_woSR.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/Mj1_woSR.jpg" title="MJ1" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/MJ2" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/MJ2" title="MJ2" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 The left figure shows the resonant feature, that will take the place of $$m$$. We can define a signal region and a sideband that is signal enriched and depleted respectively. The right plot shows the other jet mass. This is the first of the $$x$$ features and will be useful for classification because the signal is again concentrated at the Z masss
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/HT.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/HT.jpg" title="HT" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/PTMiss" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/PTMiss" title="PTMiss" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/TauJ1" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/TauJ1" title="TauJ1" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/TauJ2" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/TauJ2" title="TauJ2" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 These are the remaining $$x$$ features. Notably, the two leftmost plots show the signal being at the tail of the respective distribution. This is the property that lies at the core of this publication.
@@ -93,10 +93,10 @@ Let us see how the technique works. To compare the results, we show numerous ext
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/ZZ-1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/ZZ-1.jpg" title="Performance ZZ model" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/HH-1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/HH-1.jpg" title="Performance HH model" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 The x-axis is the gluino mass, while the y-axis is $$Z$$. There are fewer signal events at higher gluino masses, simply because the production process is rarer.
@@ -105,10 +105,10 @@ The orange line denotes in both graphs the value of $$Z$$ before any use of the 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/HH-HZ-ZZ-1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/HH-HZ-ZZ-1.jpg" title="Performance HH-HZ-ZZ model" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/2000GeV_MH-1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/2000GeV_MH-1.jpg" title="Performance heavy Higgs model" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 The left plot is a model where both decays to Z-bosons and Higgs bosons occur. This time, our approach is even better than the full <a href="https://arxiv.org/abs/1712.08501">analysis</a>. Lastly, on the right, we show the results of a model where the decay results in a new heavy Higgs boson of mass $$m_H$$ that is predicted by supersymmetric models. This is completely un-searched for by classical analyses. With CATHODE, it is easily included with just a bit of computational resources.

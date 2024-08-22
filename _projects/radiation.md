@@ -20,7 +20,7 @@ The diagram for the circuit that produces the high voltage, measures the current
 After soldering everything, the set looks like the following image.
 <div class="row justify-content-sm-center">
   <div class="col-sm-6 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/rad.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid path="assets/img/rad.jpg" title="Geiger counter" class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
 When a battery is connected, it indeed detects one particle every 10 seconds or so. This is what is expected with the normal background radiation in Bonn.
@@ -29,7 +29,7 @@ When a battery is connected, it indeed detects one particle every 10 seconds or 
 The pins, shown in the upper left corner of the image above allow to connect the Geiger counter to other devices. Two pins are power connections, while the third sends a 5V pulse when the detector triggers. My Raspberry Pi 3 Model A+ has a bunch of general <a href="https://datasheets.raspberrypi.com/rpi3/raspberry-pi-3-a-plus-reduced-schematics.pdf">IO pins (GPIO)</a> that allow exactly this connection. Connecting the power supply to pins 1 and 6 allows the detector to be supplied by the Raspberry Pi alone. Delivering the pulse to pin 7 let the PI read the detector response.
 <div class="row justify-content-sm-center">
   <div class="col-sm-6 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/raspi" title="example image" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid path="assets/img/raspi" title="Raspi plus Geiger counter" class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
 Using the `GPIO` module of the `RPi` python package supplies everything one needs to read the detector. 
